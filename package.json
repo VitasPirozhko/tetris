@@ -1,0 +1,27 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitasPirozhko/tetris.git"
+  },
+  "author": "vitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitasPirozhko/tetris/issues"
+  },
+  "homepage": "https://github.com/VitasPirozhko/tetris#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  }
+}
