@@ -165,4 +165,4 @@ const game = new Game('game');
 game.gameEngineStart();
 
 */
-console.log(1)
+console.log(98)

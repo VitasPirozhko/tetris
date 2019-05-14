@@ -16,5 +16,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: PATHS.source + '/index.html'
         }),
-    ]
+    ],
+    devServer: {
+        stats: 'errors-only'
+    }
 };
