@@ -19,5 +19,13 @@ module.exports = {
     ],
     devServer: {
         stats: 'errors-only'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
+            }
+        ]
     }
 };

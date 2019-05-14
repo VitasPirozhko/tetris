@@ -1,3 +1,5 @@
+import '../css/main.css'
+
 /*
 // разбитие поля на квадраты (хз нужно ли, пока коментирую)
 /!*const fieldMarking = (end, endOfLine, horizontal) => {
@@ -165,4 +167,3 @@ const game = new Game('game');
 game.gameEngineStart();
 
 */
-console.log(98)
