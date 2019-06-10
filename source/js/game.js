@@ -31,20 +31,21 @@ class Tetris{
         CTX.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
         const figureL = [
-            [1, 0, 0, 0],
-            [1, 0, 0, 0],
-            [1, 1, 0, 0],
+            [0, 1, 0, 0],
+            [1, 1, 1, 0],
+            [0, 0, 0, 0],
             [0, 0, 0, 0],
         ];
-
+        console.log(CANVAS_WIDTH)
+        console.log(CANVAS_HEIGHT)
         CTX.save();
         CTX.rotate(90 * Math.PI / 180);
-        CTX.translate(250, -350)
+        CTX.translate(-168, - (CANVAS_HEIGHT / 2));
         this.Figure.draw(figureL, DEFAULT_FIGURE_POS_X, DEFAULT_FIGURE_POS_Y);
         CTX.restore();
 
 
-        this.Figure.draw(figureL, DEFAULT_FIGURE_POS_X, DEFAULT_FIGURE_POS_Y + 378);
+        this.Figure.draw(figureL, DEFAULT_FIGURE_POS_X, DEFAULT_FIGURE_POS_Y);
     };
 }
 
