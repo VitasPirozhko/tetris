@@ -1,7 +1,5 @@
 import drawFigureCube from './figureСube'
 import {
-    DEFAULT_FIGURE_POS_X,
-    DEFAULT_FIGURE_POS_Y,
     BLOCK_WIDTH
 } from './constants/constants'
 
